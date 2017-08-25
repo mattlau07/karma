@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+@font-face {
+    font-family: robo;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboR;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+.head{
+	height: 75px;
+}
+
+img{
+	width: 27px;
+	height: 43px;
+	margin-top: 15px;
+
+}
+
+.logo{
+	margin-left: 305px;
+}
+
+.links{
+	float: right;
+	margin-top: 23px;
+	margin-right: 282px;
+	text-decoration: none;
+}
+
+.meet{
+	margin-right: 25px;
+	font-family: robo;
+	color: #4c5058;
+	font-size: 16.64px;
+	text-decoration: none;
+}
+
+.how,
+.store,
+.blog,
+.help,
+.login{
+	margin-right: 24px;
+	font-family: roboR;
+	color: #838994;
+	font-size: 16.64px;
+	text-decoration: none;
+}
