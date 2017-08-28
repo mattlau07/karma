@@ -1,18 +1,30 @@
 body{
 	margin: 0;
 }
+
 @font-face {
-    font-family: robo;
-    src: url(../fonts/Roboto-Regular.ttf);
+    font-family: robo-light;
+    src: url(../fonts/Roboto-Light.ttf);
 }
 
 @font-face {
-    font-family: roboR;
-    src: url(../fonts/Roboto-Light.ttf);
+    font-family: robo-thin;
+    src: url(../fonts/Roboto-Thin.ttf);
+}
+
+@font-face{
+	font-family: robo-regular;
+	src: url(../fonts/Roboto-Regular.ttf);
 }
 
 .head{
 	height: 75px;
+}
+
+header{
+	position: fixed;
+	background-color: white;
+	width: 100%;
 }
 
 img{
@@ -35,7 +47,7 @@ img{
 
 .meet{
 	margin-right: 25px;
-	font-family: robo;
+	font-family: robo-regular;
 	color: #4c5058;
 	font-size: 16.64px;
 	text-decoration: none;
@@ -47,8 +59,78 @@ img{
 .help,
 .login{
 	margin-right: 24px;
-	font-family: roboR;
+	font-family: robo-light;
 	color: #838994;
 	font-size: 16.64px;
 	text-decoration: none;
 }
+
+section.image{
+	background-image: url(https://photos-2.dropbox.com/t/2/AABN4Vp1LVY8YaBMFfidhlHwAOnINVD2aU7odCJW6_0Kxg/12/357404183/jpeg/32x32/3/1503802800/0/2/first-background%20copy.jpg/ENSM5ecCGEsgAigC/KW8UftFosyCQF7X9rgCZFn7FVHUwtxuM6S4d-wOzxEc?dl=0&size=2048x1536&size_mode=3);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45.938rem;
+}
+
+section .mid{
+	margin: 0 auto;
+	width: 600px;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+
+
+}
+
+section .mid .cont .intro{
+	font-family: robo-thin;
+	width: 600px;
+	font-size: 3.125rem;
+	margin-bottom: 0;
+}
+
+section .mid .cont .wifi{
+	font-family: robo-thin;
+	width: 600px;
+	font-size: 1.563rem;
+	margin-top: 10px;
+}
+
+button{
+	background-color: #f15a29;
+	padding: 1em 1.5em;
+	font-size: 1em;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color: #EE4000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
