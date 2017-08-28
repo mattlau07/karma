@@ -25,6 +25,8 @@ header{
 	position: fixed;
 	background-color: white;
 	width: 100%;
+	border-bottom: 1px solid #DDD;
+
 }
 
 img{
@@ -112,15 +114,43 @@ button{
 
 }
 
+.bottom{
+	padding-bottom: 80px;
+}
 
+.needs{
+	text-align: center;
+	margin-top: 7.87rem;
+}
 
+.needs-karma{
+	color: #1d1e21;
+	font-family: robo-thin;
+	font-size: 44px;
+	margin-bottom: 50px;
+}
 
+ul{
+	list-style: none;
+	text-align: center;
+}
 
+ul li img{
+	width: 127px;
+	height: 127px;
+	margin: 0;
+}
 
+ul li h3{
+	font-family: robo-light;
+	font-size: 25px;
+}
 
-
-
-
+ul li{
+	width: 270px;
+	display: inline-block;
+	margin: 0;
+}
 
 
 
