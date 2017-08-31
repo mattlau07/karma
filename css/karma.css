@@ -135,32 +135,90 @@ ul{
 	text-align: center;
 }
 
-ul li img{
+.pc,
+.coffee,
+.charge {
 	width: 127px;
 	height: 127px;
 	margin: 0;
 }
 
-ul li h3{
+h3{
 	font-family: robo-light;
 	font-size: 25px;
 }
 
-ul li{
+.internet,
+.work,
+.payment {
 	width: 270px;
 	display: inline-block;
 	margin: 0;
 }
 
+footer{
+	margin: 0 auto;
+}
 
+.foot{
+	text-align: center;
+    width: 750px;
+    margin: 0 auto;
+}
 
+hr{
+	border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 0;
+}
 
+.icons{
+	display: inline-block;
+	width: 752px;
+	padding: 0;
+	margin: 0;
+}
 
+.circleIcon1,
+.circleIcon2,
+.circleIcon3{
+	border-radius: 100%;
+    width: 2.25rem;
+    height: 1rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
 
+footer{
+	padding-bottom: 150px; 
+}
+footer div h5{
+	font-family: robo-light;
+	font-size: 16px;
+	margin: 0;
+}
 
+.circleIcon1{
+	color: #55acee;
+}
 
+.circleIcon2{
+	color: #4c66a4;
+}
 
+.circleIcon3{
+	color: #3f729b;
+}
 
+.company{
+	font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+    font-family: robo-thin;
+}
 
 
 
