@@ -1,3 +1,13 @@
+* {
+	box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 body{
 	margin: 0;
 }
@@ -37,13 +47,12 @@ img{
 }
 
 .logo{
-	margin-left: 305px;
+	margin-right: 50px;
 }
 
 .links{
-	float: right;
-	margin-top: 23px;
-	margin-right: 282px;
+	margin: 0 auto;
+    width: 600px;
 	text-decoration: none;
 }
 
@@ -151,9 +160,8 @@ h3{
 .internet,
 .work,
 .payment {
-	width: 270px;
-	display: inline-block;
-	margin: 0;
+	display: block;
+	margin: 0 auto;
 }
 
 footer{
@@ -162,19 +170,18 @@ footer{
 
 .foot{
 	text-align: center;
-    width: 750px;
+    width: 400px;
     margin: 0 auto;
 }
 
 hr{
+	width: 831px;
 	border: 0;
     border-top: 1px solid #eaebec;
-    margin: 1.313rem 0;
+    margin: 0 auto 15px auto;
 }
 
 .icons{
-	display: inline-block;
-	width: 752px;
 	padding: 0;
 	margin: 0;
 }
@@ -184,7 +191,7 @@ hr{
 .circleIcon3{
 	border-radius: 100%;
     width: 2.25rem;
-    height: 1rem;
+    height: 2.25rem;
     display: inline-block;
     margin: 1.25rem 5px;
     border: 1px solid #eaebec;
@@ -218,6 +225,37 @@ footer div h5{
     font-weight: 300;
     color: #838994;
     font-family: robo-thin;
+}
+
+[class*="col-"] {
+/*    float: left;
+*/    padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (min-width: 540px) {
+	[class*="col-"] {
+    	float: left;
+   	 	padding: 15px;
+	}
+	.internet,
+	.work,
+	.payment {
+		display: inline-block;
+		margin: 0;
+		width: 277px;
+	}
 }
 
 
